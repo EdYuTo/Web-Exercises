@@ -1,0 +1,9 @@
+{
+  "name": "9791305_9770382_EX13",
+  "version": "1.0",
+  "permissions": ["tabs", "http://*/*", "declarativeContent", "storage", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

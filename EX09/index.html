@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dolar Comercial</title>
+</head>
+<body>
+    <h1>
+        Dólar comercial (venda e compra) - cotações diárias
+    </h1>
+    <div class="container">
+        <span>
+            <label>Data Inicial:</label>
+                <input type = "text" id = "Data_Inicial" placeholder="MM-DD-AAAA"><br>
+            <label>Data Final:</label>
+                <input type = "text" id = "Data_Final" placeholder="MM-DD-AAAA"><br>
+            <p>
+                <input type = "checkbox" id = "Compra"> Compra<br>
+                <input type = "checkbox" id = "Venda"> Venda<br>
+                <input type = "checkbox" id = "DataHora"> Data e Hora<br>
+            </p>
+            <div>
+                Ordem de valores:
+            </div>
+            <select id = "Ordenacao">
+                <option value = "NOrd" selected>Não Ordenar</option>
+                <option value = "Crescente" selected>Crescente</option>
+                <option value = "Decrescente">Decrescente</option>
+            </select>
+            <br><br>
+            <input type = "button" name = "Buscar" value = "Buscar" onclick="submit()">
+        </span>
+    </div>
+    <br>
+    <div id="Table0">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

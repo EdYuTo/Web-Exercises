@@ -1,0 +1,60 @@
+body {
+    background-color: #fcfcfc
+}
+h1 {
+    text-align: center
+}
+.container {
+    text-align: center
+}
+
+div {
+    text-align: left
+}
+
+span {
+    display: inline-block;
+    background-color: #e2edff;
+    outline: rgb(0, 0, 0) solid 1px;
+    padding: 10px 15px 15px 15px;
+    clear: both
+}
+
+span input[type=button], select {
+    width: 100%;
+    clear: both
+}
+
+span label {
+    display: inline-block;
+    width: 100px;
+    text-align: left
+}
+
+p {
+    line-height: 0;
+    padding: 0;
+    text-align: left
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    overflow: auto
+}
+
+tr:nth-of-type(odd) { 
+    background: #eee 
+}
+
+th { 
+    background: #e2edff; 
+    color: black; 
+    font-weight: bold
+}
+
+td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left
+}
